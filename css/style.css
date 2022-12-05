@@ -21,6 +21,47 @@ section, header, footer{
     margin: auto
 }
 
+/*--Heading Stylings--*/
+
+h1{
+    font-weight: bold;
+    font-size: 8.05rem;
+    color: #252326;
+    letter-spacing: -6px;
+    line-height: 5rem;
+    padding-top: 14rem;
+    padding-bottom: 10rem;
+}
+
+
+h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: -0.7px;
+    line-height: 2rem;
+}
+
+h5{
+    font-weight: bold;
+    color: #f3f2ee;
+}
+
+.red{
+    font-weight: bold;
+    color: #cd2a1c;
+
+}
+/*--Paragraph Stylings--*/
+
+p {
+    font-family: ltc-bodoni-175, serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.01rem;
+    padding-bottom: 2rem;
+}
+
 .row1{
     display: grid;
     grid-template-columns: 30% 70%;
@@ -32,24 +73,8 @@ section, header, footer{
     display: grid;
     grid-template-columns: 70% 30%;
     gap: 10px;
-
-}
-
-
-
-p {
-    font-family: ltc-bodoni-175, serif;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    letter-spacing: 0.01rem;
-    padding-bottom: 2rem;
-}
-
-h2{
-    font-weight: bold;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    padding-bottom: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 hr{
@@ -62,25 +87,18 @@ hr{
     border: 0 none;
 }
 
-h1{
-    font-weight: bold;
-    font-size: 7rem;
-    color: #252326;
+.para{
+padding: 10rem 0;
 }
 
-h5{
-    font-weight: bold;
-}
 
-.red{
-    font-weight: bold;
-    color: #cd2a1c;
 
-}
+
 
 blockquote{
     hanging-punctuation: first;
     font-weight: bold;
+    color: #f3f2ee;
 }
 
 #quote{
@@ -122,6 +140,9 @@ nav a {
     color:#f5f5f5;
     font-weight: bold;
     text-align: left;
+    letter-spacing: -0.001px;
+    line-height: 1rem;
+
 }
 
 nav a:hover {
@@ -130,16 +151,65 @@ nav a:hover {
     transition: all 0.3s ease-in-out;
 }
 
+.flexcontain{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto
+
+}
 .row3{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 1rem;
-    width: fit-content;
-    align-content: center;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+
+
 
 }
 
 .c3{
     text-align: left;
-    align-items: center;
+    align-items: center;       
+    border-left:#f3f2ee;
+     border-width: 5px;
+}
+
+.block{
+    background-color: #252326;
+}
+
+.block2{
+    color:#f3f2ee;
+    background-color: #252326;
+    padding: 10rem 0;
+}
+
+h2{
+    padding-bottom: 2rem;
+}
+
+footer a{
+    color: #f3f2ee;
+    font-weight: bold;
+
+}
+
+h6{
+    color: #f3f2ee;
+    font-weight: bold;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+footer a:hover {
+    border-bottom: nono;
+    color: rgb(131, 131, 131);
+    transition: all 0.3s ease-in-out;
+}
+
+img{
+    width: 100%;
+}
+
+html{
+    scroll-padding-top: 10rem;
 }
