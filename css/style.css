@@ -203,13 +203,21 @@ nav a:hover {
     align-items: center;       
 }
 
+/*--Back to Top Styling--*/
+
 .back-to-top {
-    color: #252326;
-    width: 60px;
+    width: 70px;
     position: fixed;
     right: 4rem;
     bottom: 4rem;
   }
+
+  .cls-1{
+    fill:#f3f2ee;
+}
+  .cls-2{
+    fill:#252326;
+}
 
 /*--Footer Stylings--*/
 
