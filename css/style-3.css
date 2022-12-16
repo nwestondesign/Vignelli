@@ -1,0 +1,458 @@
+/*-- CSS reset --*/
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+/*--starting main styling--*/
+
+html{
+    scroll-padding-top: 10rem;
+}
+
+body {
+    background: #f3f2ee;
+    color: #252326;
+    font-family: Helvetica, sans-serif;
+}
+
+section, header, footer{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto
+}
+
+/*--Heading Stylings--*/
+
+h1{
+    font-weight: bold;
+    font-size: 8.05rem;
+    color: #252326;
+    letter-spacing: -6px;
+    line-height: 5rem;
+    padding-top: 13rem;
+    padding-bottom: 10rem;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: -0.7px;
+    line-height: 2rem;
+}
+
+h3{
+    font-weight: bold;
+    color: #f3f2ee;
+    text-align: right;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+h4{
+    color: #f3f2ee;
+    font-weight: bold;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.red{
+    font-weight: bold;
+    color: #cd2a1c;
+}
+
+/*--Paragraph Stylings--*/
+
+hr{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    height: 6px;
+    color:#252326;
+    background-color: #252326;
+    border: 0 none;
+}
+
+p {
+    font-family: ltc-bodoni-175, serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.005rem;
+    padding-bottom: 2rem;
+
+}
+
+.row1{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 10px;
+    padding-top: 0.4rem;
+}
+
+.para{
+    padding-top: 5rem ;
+    padding-bottom: 3rem;
+}
+
+/*--IMG and Quote Stylings--*/
+
+.row2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 10px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    row-gap: 5rem;
+}
+
+.c2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+img{
+    width: 100%;
+}
+
+blockquote{
+    hanging-punctuation: first;
+    font-weight: bold;
+    color: #f3f2ee;
+}
+
+#quote{
+    font-style: italic;
+    font-size: 4rem;
+}
+
+#cred{
+    justify-content: none;
+    align-items: none;
+}
+
+.block{
+    background-color: #252326;
+}
+
+/*--Nav Stylings--*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#252326;
+    padding: 1.5rem 0 1.5rem 0;
+    font-size: 1rem;
+    width: 100%;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+nav a {
+    color:#f5f5f5;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: -0.001px;
+    line-height: 1rem;
+}
+
+nav a:hover {
+    border-bottom: nono;
+    color: rgb(131, 131, 131);
+    transition: all 0.3s ease-in-out;
+}
+
+.flexcontain{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row3{
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.c3{
+    text-align: left;
+    align-items: center;       
+}
+
+li {
+    white-space: nowrap;
+}
+
+
+/*--Back to Top Styling--*/
+
+.back-to-top {
+    width: 60px;
+    position: fixed;
+    right: 4rem;
+    bottom: 4rem;
+  }
+
+  .cls-1{
+    fill:#f3f2ee;
+}
+  .cls-2{
+    fill:#252326;
+}
+
+/*--Footer Stylings--*/
+
+.block2{
+    color:#f3f2ee;
+    background-color: #252326;
+    padding: 5rem 0;
+}
+
+footer a{
+    color: #f3f2ee;
+    font-weight: bold;
+    line-height: 3rem;
+
+}
+
+footer a:hover {
+    border-bottom: nono;
+    color: rgb(131, 131, 131);
+    transition: all 0.3s ease-in-out;
+}
+
+footer p{
+    padding: 1rem 0;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.footerp{
+    padding: 2rem 0;
+}
+
+/*--Collapse List Styling--*/
+
+.collapsible {
+    background-color: #252326;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+  
+.active, .collapsible:hover {
+    background-color: #252326;
+}
+  
+.content {
+    padding: 2rem 0;
+    display: none;
+    overflow: hidden;
+    background-color: #252326;
+}
+
+.drop-arrow{
+    width: 40px;
+}
+
+.cls-1{
+    fill:#f3f2ee;
+}
+
+.drop-arrow:hover{
+    color:#444;
+}
+
+/*-- Quote Cite Stylings--*/
+
+.c3{
+    display: flex;
+    align-items: flex-end;
+}
+
+/*--progress bar styling--*/
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+  
+.progress-container {
+    width: 100%;
+    height: 6px;
+    background: #252326; 
+}
+  
+.progress-bar {
+    height: 6px;
+    background: #cd2a1c;
+    width: 0%;
+}
+
+
+
+@media (max-width: 824px) {
+    h1{
+        font-size: 5.5rem;
+        padding-top: 13rem;
+        padding-bottom: 10rem;
+        letter-spacing: -4px;
+        line-height: 3.6rem;
+
+    }
+
+    h2{
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        padding-top: 0rem;
+    }
+
+    #quote{
+        font-size: 3rem;
+    }
+
+    .back-to-top {
+        width: 50px;
+        position: fixed;
+        right: 2rem;
+        bottom: 2rem;
+      }
+
+    .row3{
+        display: grid;
+        grid-column: 3fr;
+    }
+
+}
+
+@media (max-width: 428px) {
+    h1{
+        font-size: 2.5rem;
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+        letter-spacing: -1px;
+        line-height: 1.6rem;
+
+    }
+
+    p{
+        font-size: 0.85rem;
+        line-height: 1.1rem;
+    }
+
+    h2{
+        font-size: 0.85rem;
+        line-height: 1.1rem;
+    }
+
+    h3{
+        font-size: 0.7rem;
+        line-height: 0.8rem;
+    }
+
+    #quote{
+        font-size: 1.5rem;
+    }
+
+    .para{
+        padding: 3rem 0;
+    }
+
+    .row2{
+        padding: 3rem 0;
+    }
+
+    .credit{
+        font-size: 1rem;
+    }
+
+    footer a{
+        line-height: 1.4rem;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:#252326;
+        padding: 0.6rem 0;
+        font-size: 0.5rem;
+        width: 100%;       
+    }
+
+    nav a {
+        color:#f5f5f5;
+        font-weight: bold;
+        text-align: left;
+        letter-spacing: -0.001px;
+        line-height: 0.8rem;
+    }
+    
+    hr{
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        height: 3px;
+        color:#252326;
+        background-color: #252326;
+        border: 0 none;
+    }
+
+
+
+    .back-to-top {
+        width: 30px;
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+      }
+
+    #cred{
+        font-size: 0.5rem;
+    }
+
+    .progress-container {
+        width: 100%;
+        height: 3px;
+        background: #252326; 
+    }
+      
+    .progress-bar {
+        height: 3px;
+        background: #cd2a1c;
+        width: 0%;
+    }
+    
+    .drop-arrow{
+        width: 20px;
+    }
+    
+    footer p{
+        padding: 1rem 0;
+        font-size: 0.7rem;
+        line-height: 1.4rem;
+    }
+}
+
+
