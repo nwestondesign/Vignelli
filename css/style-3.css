@@ -188,12 +188,12 @@ nav a:hover {
 .row3{
     margin:auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 .c3{
     text-align: left;
-    align-items: center;       
+    align-items: center;    
 }
 
 li {
